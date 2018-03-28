@@ -1,0 +1,12 @@
+<h1>Url Shortner</h1>
+
+
+
+
+<%= form_for :url, {remote:true} do |f| %>
+<label> Long Url </label>
+<%= f.text_field :long_url %>
+<%= f.submit "Create Shorty" %>
+<% end %>
+
+<div id= "short_url"></div>

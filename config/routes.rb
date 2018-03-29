@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-root '/'
+
   get 'url/new'
 
   get '/url/create'
